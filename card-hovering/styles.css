@@ -1,0 +1,42 @@
+.card-container{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-container div{
+    background-size: cover;
+    overflow: hidden;
+    width: 10%;
+    height: 100%;
+    color: white;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.card-container div:hover{
+    width: 43%;
+}
+
+.card1{
+    background: url(ace.jpg);
+}
+
+.card2{
+    background: url(akatsuki.jpg);
+}
+
+.card3{
+    background: url(gojo.jpg);
+}
+
+.card4{
+    background: url(itachi.jpg);
+}
+
+.card5{
+    background : url(narutp.jpg);
+}
